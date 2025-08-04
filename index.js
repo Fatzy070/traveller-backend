@@ -35,7 +35,7 @@ app.post('/send', async (req, res) => {
   });
 
   const mailOptions = {
-    from: SmoothFlight,
+    from: email,
     to: 'ogunsolafaruk8@gmail.com',
     subject: `Message from ${name}`,
     text: message,
